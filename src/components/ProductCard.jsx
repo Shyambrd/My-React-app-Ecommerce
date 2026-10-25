@@ -24,10 +24,11 @@ function ProductCard({ product, addToCart }) {
         />
       )}
 
-      <h3>{product.name}</h3>
+      <h2>{product.name}</h2>
+      <h2>{product.description}</h2>
 
       <p className="price">
-        ₹{product.price}
+        <h3>₹{product.price}</h3>
       </p>
 
       <p

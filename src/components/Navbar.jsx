@@ -20,7 +20,7 @@ function Navbar({
 
   return (
     <nav className="navbar">
-      <h2>E-Commerce Portal</h2>
+      <h2>BuyNow.com</h2>
 
       <div className="nav-links">
         <Link to="/">Home</Link>
