@@ -1,4 +1,5 @@
 import "./AdminD.css"
+import { Link } from "react-router-dom";
 
 
 function Cart({
@@ -139,12 +140,11 @@ function Cart({
               </strong>
             </p>
 
-            <button
-              className="checkout-btn"
-              onClick={handleCheckout}
-            >
-              Proceed To Checkout
-            </button>
+            <Link to="/checkout">
+  <button className="checkout-btn">
+    Proceed to Checkout
+  </button>
+</Link>
           </div>
         </>
       )}

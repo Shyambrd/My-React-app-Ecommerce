@@ -80,14 +80,7 @@ if (
           </button>
         </form>
 
-        <div className="demo-credentials">
-          <p>
-            <strong>Demo Login</strong>
-          </p>
 
-          <p>Username: admin</p>
-          <p>Password: admin123</p>
-        </div>
       </div>
     </div>
   );

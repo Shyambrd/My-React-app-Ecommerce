@@ -402,3 +402,267 @@
   font-size: 18px;
   margin: 10px 0;
 }
+.checkout-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.checkout-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkout-container input,
+.checkout-container textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.checkout-btn,
+.checkout-container button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.order-summary {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+.checkout-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.checkout-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkout-container input,
+.checkout-container textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.checkout-btn,
+.checkout-container button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.order-summary {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+.checkout-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+}
+
+.checkout-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.order-summary {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.coupon-section {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.coupon-section input {
+  flex: 1;
+}
+
+.checkout-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.checkout-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.payment-section {
+  margin: 20px 0;
+}
+
+.payment-option {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.total-box {
+  margin-top: 20px;
+  background: #f1f3f5;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.total-box h2 {
+  color: #28a745;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.checkout-btn:hover {
+  background: #218838;
+}
+
+.apply-btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background: #0056b3;
+}
+
+.success-page {
+  max-width: 700px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.success-page h1 {
+  color: #28a745;
+}
+
+.success-links a {
+  text-decoration: none;
+  margin: 10px;
+  color: #007bff;
+  font-weight: 600;
+}
+.orders-page {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.orders-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.no-orders {
+  text-align: center;
+  font-size: 18px;
+}
+
+.order-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.order-id {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.order-date {
+  color: #666;
+}
+
+.order-total {
+  font-size: 18px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.order-products {
+  margin-top: 15px;
+}
+
+.order-product {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.payment-badge {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+

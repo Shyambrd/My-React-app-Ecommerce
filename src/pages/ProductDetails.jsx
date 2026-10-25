@@ -36,6 +36,7 @@ function ProductDetails({ products, addToCart }) {
 
         <div className="details-info">
           <h1>{product.name}</h1>
+          <h1>{product.description}</h1>
 
           <h2 className="details-price">
             ₹{product.price}

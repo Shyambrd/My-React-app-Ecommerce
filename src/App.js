@@ -16,6 +16,8 @@ import EditProduct from "./pages/EditProduct";
 import Login from "./pages/Login";
 import AdminDashboard from "./pages/AdminDashboard";
 import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import OrderHistory from "./pages/OrderHistory";
 
 function App() {
   const checkLoginStatus = () => {
@@ -74,6 +76,36 @@ function App() {
         price: 5500,
         quantity: 10,
         image: "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800",
+        status: "Available",
+      },
+       {
+        id: 4,
+        name: "KeyBoard",
+        description: "CromaKeyboards",
+        category: "Accessories",
+        price: 500,
+        quantity: 5,
+        image: "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800",
+        status: "Available",
+      },
+       {
+        id: 5,
+        name: "Washing Machine",
+        description: "LG washing machine 8 kg",
+        category: "Electronics",
+        price: 45000,
+        quantity: 9,
+        image: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=800",
+        status: "Available",
+      },
+       {
+        id: 6,
+        name: "Sweatshirts",
+        description: "H&M Hoodies",
+        category: "Fashion",
+        price: 2400,
+        quantity: 8,
+        image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
         status: "Available",
       },
     ]);
@@ -170,6 +202,13 @@ function App() {
     );
   };
 
+  useEffect(() => {
+  localStorage.setItem(
+    "cart",
+    JSON.stringify(cart)
+  );
+}, [cart]);
+
   const decreaseQuantity = (id) => {
     setCart(
       cart
@@ -221,6 +260,29 @@ function App() {
             />
           }
         />
+
+        <Route
+ path="/orders"
+ element={<OrderHistory />}
+/>
+
+        <Route
+  path="/checkout"
+  element={
+    <Checkout
+      cart={cart}
+      setCart={setCart}
+    />
+  }
+/>
+
+
+<Route
+  path="/orders"
+  element={<OrderHistory />}
+/>
+
+
 
 <Route
   path="/cart"

@@ -32,7 +32,7 @@ const handleBuyNow = () => {
 };
   const slides = [
     {
-      id: 1,
+      id: 101,
       title: "iPhone Air",
       subtitle: "Starting from",
       category: "Electronics",
@@ -42,7 +42,7 @@ const handleBuyNow = () => {
         "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1200"
     },
     {
-      id: 2,
+      id: 102,
       title: "Nike Air Jordan",
       subtitle: "Limited Edition",
       category: "Fashion",
@@ -52,7 +52,7 @@ const handleBuyNow = () => {
         "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200"
     },
     {
-      id: 3,
+      id: 103,
       title: "Adidas Samba",
       subtitle: "Classic Collection",
       category: "Fashion",
@@ -62,7 +62,7 @@ const handleBuyNow = () => {
         "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1200"
     },
     {
-        id: 4,
+        id: 104,
         title: "Sony",
       subtitle: "Wireless Headphones",
       category: "Electronics",
