@@ -1,0 +1,155 @@
+.home-container {
+  padding: 20px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  background: #f5f5f5;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.slide-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 450px;
+  padding: 40px;
+}
+
+.slide-text {
+  flex: 1;
+}
+
+.slide-text h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.slide-text h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 15px;
+}
+
+.buy-now-home {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.slide-image {
+  flex: 1;
+  text-align: center;
+}
+
+.slide-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border: none;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+  z-index: 100;
+}
+
+.left {
+  left: 15px;
+}
+
+.right {
+  right: 15px;
+}
+
+.carousel-dots {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #9c27b0;
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  .slide-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .slide-text h1 {
+    font-size: 40px;
+  }
+
+  .price {
+    font-size: 28px;
+  }
+
+  .slide-image img {
+    max-width: 350px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .slide-content {
+    padding: 20px;
+  }
+
+  .slide-text h1 {
+    font-size: 30px;
+  }
+
+  .slide-text h3 {
+    font-size: 22px;
+  }
+
+  .slide-image img {
+    max-width: 250px;
+  }
+}
